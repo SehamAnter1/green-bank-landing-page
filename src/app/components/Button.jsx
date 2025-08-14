@@ -28,7 +28,7 @@ target, loading, onClick, disabled, type, className, text,
         primary: "bg-foreground text-background",
         secondary: "bg-gray-200 text-gray-900",
         danger: "bg-red-500 text-white",
-        outline: "border border-gray-300 text-foreground  bg-transparent",
+        outline: "border border-foreground text-foreground  bg-transparent",
     };
     const sizeClasses = {
         xs: "h-[28px] text-xs px-3 py-0.5 min-w-[50px]",

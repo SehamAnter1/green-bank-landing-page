@@ -10,16 +10,14 @@ const Hero = lazy(() => import("./app/sections/Hero.jsx"));
 
 
 import { bg_icon } from "./assets/Icons.jsx";
+import Main_Header from "./app/root/Main_Header.jsx";
 
 function App() {
     return (
         <>
-            <div className={`main_layout relative`}>
-              
-{/* {bg_icon} */}
-                        <Hero/>
-               
-            </div>
+            <Main_Header />
+            <Hero />
+
         </>
     );
 }
