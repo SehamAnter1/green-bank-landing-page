@@ -1,0 +1,12 @@
+.toggle_icon path {
+  stroke: var(--on-surface-primary) !important;
+}
+
+svg path {
+  transition-duration: 300ms;
+  transition: all;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+}/*# sourceMappingURL=theme.css.map */

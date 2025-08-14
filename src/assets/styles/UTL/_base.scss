@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+
+  transition: 0.6s all;
+  margin: auto;
+  // overflow-x: hidden;
+  -webkit-transition: 0.6s all;
+  -moz-transition: 0.6s all;
+  -ms-transition: 0.6s all;
+  -o-transition: 0.6s all;
+}
+
+body,
+*,
+.p-component {
+  font-family: "Montserrat", serif;
+  
+}
+
+.main_layout {
+  min-height: 5000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('./../../images/base/bg.svg');
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button,
+input {
+  outline: none;
+}
+
+a {
+  width: fit-content;
+}
+
+// slider
+.slick-slider {
+  max-width: 100%;
+  .slick-track,
+  .slick-slider .slick-list {
+    overflow: hidden;
+    height: 100%;
+  }
+}
+.slick-slide > div {
+  display: flex;
+  height: 100%;
+  padding: 0 14px;
+}
+.slick-dots li.slick-active button:before {
+  color: #d9d9d9;
+}
+.slick-dots li button:before {
+  font-size: 16px;
+  margin-top: 30px;
+  color: #d9d9d9;
+}
+// scrollbar
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background: rgba(var(--container-primary-variant), $alpha: 1);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 2px !important;
+  -webkit-border-radius: 21px !important;
+  -moz-border-radius: 21px !important;
+  -ms-border-radius: 21px !important;
+  -o-border-radius: 21px !important;
+  background: rgba(var(--container-primary-variant), $alpha: 1);
+  background: var(--color-neutral-800) !important;
+}
+::-webkit-scrollbar {
+  background: rgba(var(--container-primary-variant), $alpha: 1);
+  width: 8px;
+  height: 3px;
+}
+
+// scrollbar
+div::-webkit-scrollbar {
+  height: 3px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+// for editor
+.editor * {
+  all: revert;
+}
+.rotate_x_180 {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.6s ease;
+}
+
+.is-inview.fade-in,
+.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+} 
+
+[data-scroll-container] {
+  will-change: transform;
+}
+html.has-scroll-smooth {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+[data-load-container] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+// tilt glare
+.glare {
+  width: 100px !important;   /* set glare width */
+  height: 50px !important;   /* set glare height */
+  /* Adjust position as needed */
+  // top: 10px !important;
+  // left: 20px !important;
+}
+
+// .glare {
+//   /* You can also tweak the gradient shape here */
+//   border-radius: 10px !important;
+//   opacity: 0.8 !important;
+// }

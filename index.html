@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Meta tags for dynamic content -->
+  <!----------------------------------------------->
+  <!----------------------------------------------->
+  <meta name="description" id="meta-description" />
+  <meta property="og:title" id="og-title" />
+  <meta property="og:description" id="og-description" />
+  <meta property="og:image" id="og-image" />
+  <meta id="keywords" name="keywords" content="">
+  <meta id="application-name" name="application-name" content="">
+  <title id="page-title"></title>
+  <!----------------------------------------------->
+  <!----------------------------------------------->
+
+  <link rel="icon" type="image/svg+xml" href="fav_icon.png" />
+  <!--  font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- meta -->
+  <script>
+    const language = navigator.language || 'en';
+      // console.log(language)
+    if (language.startsWith('ar')) {
+      // document.getElementById('page-title').innerText = '';
+      // document.getElementById('meta-description').setAttribute('content', '');
+      // document.getElementById('og-title').setAttribute('content', '');
+      // document.getElementById('og-description').setAttribute('content', '');
+      // document.getElementById('og-image').setAttribute('content', '');
+      // document.getElementById('keywords').setAttribute('content', '');
+      // document.getElementById('application-name').setAttribute('content', '');
+    } else {
+      document.getElementById('page-title').innerText = 'Green Bank';
+      // document.getElementById('meta-description').setAttribute('content', '');
+      document.getElementById('og-title').setAttribute('content', 'Green Bank');
+      // document.getElementById('og-description').setAttribute('content', '');
+      // document.getElementById('og-image').setAttribute('content', '');
+      // document.getElementById('keywords').setAttribute('content', '');
+      // document.getElementById('application-name').setAttribute('content', '');
+    }
+  </script>
+  <!-- Google tag (gtag.js) -->
+
+  <script type="module" src="/src/main.jsx"></script>
+  <div id="jaas-container"></div>
+</body>
+
+</html>

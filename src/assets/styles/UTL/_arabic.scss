@@ -1,0 +1,33 @@
+body:dir(rtl) .projects_filtration,
+.subscribe_send_icon {
+  svg {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
+}
+
+
+body:dir(ltr) {
+  .rotate_y_180{
+    transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+  }
+
+
+}
+body:dir(rtl) {
+
+.rotate_y_180_ar{
+  transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+}
+}
