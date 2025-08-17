@@ -515,8 +515,8 @@ svg path {
   display: flex;
   width: -moz-max-content;
   width: max-content;
-  animation: scroll 15s linear infinite;
-  -webkit-animation: scroll 15s linear infinite;
+  animation: scroll 20s linear infinite;
+  -webkit-animation: scroll 20s linear infinite;
 }
 
 @keyframes scroll {

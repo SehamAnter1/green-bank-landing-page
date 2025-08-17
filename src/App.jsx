@@ -17,7 +17,7 @@ import Partners from "./app/sections/Partners.jsx";
 function App() {
     return (
         <BrowserRouter>
-        <div className="layout grid gap-[80px]">
+        <div className="layout grid gap-[40px] sm:gap-[60px] lg:gap-[80px]">
 
             <Main_Header />
             <Hero />

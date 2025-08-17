@@ -6,12 +6,12 @@ export default function Partners() {
 return (
   <section className="container">
       <div className="carousel-wrapper">
-        <div className="carousel-track">
+        <div className="carousel-track gap-[90px]">
           {[...logos, ...logos].map((logo, index) => (
             <div className="card" key={index}>
               <img
                 src={logo}
-                className="w-[150px] h-auto object-contain"
+                className="w-[100px] h-auto object-contain"
                 alt={`partner-${index}`}
               />
             </div>

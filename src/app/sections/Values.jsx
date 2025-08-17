@@ -10,10 +10,10 @@ export default function Values() {
 
   return (
     <section className='container'>
-        <div className="flex items-center text-center p-[64px] rounded-[32px] bg-[#3D544D]/20 backdrop-blur-sm">
+        <div className="flex flex-wrap max-sm:gap-4 justify-center items-center text-center p-[64px] rounded-[32px] bg-[#3D544D]/20 backdrop-blur-sm">
 
       {data?.map((item)=>(
-          <div className="grid gap-2 min-w-[278px] ">
+          <div className="grid gap-2 sm:min-w-[278px] ">
          <h2 className="text_48 font-bold">{item.value}</h2>
          <span className="text-foreground">{item.label}</span>
         </div>
