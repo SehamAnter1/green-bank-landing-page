@@ -198,6 +198,7 @@ text_48 => desktop font size 48px
 
 .container {
   width: 100%;
+  padding: 0px 16px;
   max-width: 1240px !important;
   margin-left: auto;
   margin-right: auto;
