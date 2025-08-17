@@ -7,3 +7,6 @@ export {default as user} from "./icons/user.png";
 // components
 export {default as task_img} from "./components/task_img.png";
 export {default as credit_card} from "./components/credit-card.png";
+export {default as person_1} from "./components/Ellipse.png";
+export {default as person_2} from "./components/Ellipse-1.png";
+export {default as person_3} from "./components/Ellipse-2.png";

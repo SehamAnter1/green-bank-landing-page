@@ -2,6 +2,7 @@ import React from 'react'
 import { credit_card } from '../../assets/images/Images'
 import { btn_arrow_icon, hero_vector_icon } from '../../assets/Icons'
 import Button from '../components/Button'
+import Avatar_Group from '../components/Avatar_Group'
 
 export default function Hero() {
   return (
@@ -22,6 +23,13 @@ export default function Hero() {
      <Button variant='primary' text={"Get Started"}>
       {btn_arrow_icon()}
       </Button>
+      <div className="flex gap-4">
+      <Avatar_Group/>
+      <div className="grid max-w-[177px]">
+        <h2 className="font-bold">10.2k+</h2>
+        <span className="text-muted-foreground">Active users around the wordls</span>
+      </div>
+      </div>
       </div>
       <img src={credit_card} alt="credit card" className='h-[439px] ms-[-10px]' />
       </div>
