@@ -38,7 +38,7 @@ target, loading, onClick, disabled, type, className, text,
         xl: "h-[70px] text-xl px-[36px] py-[16px] min-w-[150px]",
         full: "w-full h-[50px] text-base px-[20px] py-[10px]",
     };
-    const buttonClasses = ` capitalize font-semibold backdrop-blur-md cursor-pointer rounded-[49px] px-[20px] md:px-[px] py-[10px] text-center bg-RED flex items-center gap-[10px] justify-center ${className} ${
+    const buttonClasses = `w-fit capitalize font-semibold backdrop-blur-md cursor-pointer rounded-[49px] px-[20px] md:px-[px] py-[10px] text-center bg-RED flex items-center gap-[10px] justify-center ${className} ${
         isDisabled ? "opacity-35 cursor-not-allowed" : ""
     } ${variantClasses[variant]|| variantClasses.primary}
       ${sizeClasses[size] || sizeClasses.md}

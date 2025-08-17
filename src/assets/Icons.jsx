@@ -126,8 +126,16 @@ export const Close_menu_icon = (color) => (
 
 
 );
-// export const icon = (color) => ();
-// export const icon = (color) => ();
+export const hero_vector_icon = (color) => (
+    <svg width="362" height="103" viewBox="0 0 362 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M168.73 88.4545C212.374 83.5416 256.673 76.6038 286.744 70.1763C515.332 21.3168 98.4365 -37.5639 7.34247 34.9736C-23.6897 59.6843 63.7908 80.3409 168.73 88.4545ZM168.73 88.4545C95.8766 96.6551 24.8448 101 24.8448 101M168.73 88.4545C233.806 93.486 305.596 93.0784 360 87.6841" stroke="#2BB32A" stroke-width="2" stroke-linecap="square"/>
+</svg>
+
+);
+export const btn_arrow_icon = (color) => (<svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 9.75H23.5M23.5 9.75L16.5 18.25M23.5 9.75L16.5 1.75" stroke="#EFF8F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+);
 // export const icon = (color) => ();
 // export const icon = (color) => ();
 // export const icon = (color) => ();
