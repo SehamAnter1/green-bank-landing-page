@@ -506,6 +506,35 @@ svg path {
     transform: rotate(360deg);
   }
 }
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+  -webkit-animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.card {
+  flex: 0 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 ._pagination {
   display: flex;
   align-items: center;
