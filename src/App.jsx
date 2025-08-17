@@ -14,11 +14,11 @@ import Main_Header from "./app/root/Main_Header.jsx";
 
 function App() {
     return (
-        <>
+        <BrowserRouter>
             <Main_Header />
             <Hero />
 
-        </>
+        </BrowserRouter>
     );
 }
 
