@@ -259,7 +259,7 @@ text_48 => desktop font size 48px
   }
   .container {
     width: 100%;
-    padding: 0px 64px;
+    padding: 0px 44px;
     max-width: 100% !important;
   }
   .text_64 {

@@ -15,8 +15,11 @@ import Main_Header from "./app/root/Main_Header.jsx";
 function App() {
     return (
         <BrowserRouter>
+        <div className="layout grid gap-[128px]">
+
             <Main_Header />
             <Hero />
+        </div>
 
         </BrowserRouter>
     );

@@ -6,4 +6,4 @@ export {default as full_logo} from "./base/full_logo.png";
 export {default as user} from "./icons/user.png";
 // components
 export {default as task_img} from "./components/task_img.png";
-// export {default as logo_ar} from "./images/base/logo_ar.png";
+export {default as credit_card} from "./components/credit-card.png";
