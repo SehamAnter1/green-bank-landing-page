@@ -11,6 +11,7 @@ const Hero = lazy(() => import("./app/sections/Hero.jsx"));
 
 import { bg_icon } from "./assets/Icons.jsx";
 import Main_Header from "./app/root/Main_Header.jsx";
+import Values from "./app/sections/Values.jsx";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
 
             <Main_Header />
             <Hero />
+            <Values/>
         </div>
 
         </BrowserRouter>
