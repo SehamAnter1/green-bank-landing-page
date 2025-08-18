@@ -30,7 +30,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <img src={credit_card} alt="credit card" className='max-lg:hidden h-[439px] ms-[-10px]' />
+        <img src={credit_card} alt="credit card" className='max-lg:hidden h-[439px] relative end-[-100px]' />
       </div>
     </section>
   )
