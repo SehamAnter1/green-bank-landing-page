@@ -1,15 +1,5 @@
 import {useTranslation} from "react-i18next";
 import {NavLink} from "react-router-dom";
-import {
-    home_side_icon,
-    portfolio_side_icon,
-    projects_side_icon,
-    reports_side_icon,
-    tasks_side_icon,
-    teams_side_icon,
-    tickets_side_icon,
-    time_tracker_side_icon,
-} from "../../assets/Icons";
 import Icon_Chip from "../components/chips/Icon_Chip";
 
 export default function Navbar() {
