@@ -24,6 +24,7 @@ function App() {
                 <Values />
                 <Partners />
                 <Services/>
+                <Values />
             </div>
         </BrowserRouter>
     );
