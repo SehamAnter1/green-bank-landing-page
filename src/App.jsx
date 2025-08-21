@@ -1,5 +1,5 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { lazy, useContext, useEffect } from "react";
+import { BrowserRouter } from "react-router-dom";
+import { lazy } from "react";
 const Hero = lazy(() => import("./app/sections/Hero.jsx"));
 const Navbar = lazy(() => import("./app/root/Navbar.jsx"));
 const Values = lazy(() => import("./app/sections/Values.jsx"));
