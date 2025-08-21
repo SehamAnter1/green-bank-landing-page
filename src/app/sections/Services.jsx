@@ -22,10 +22,10 @@ export default function Services() {
     <section className='container'>
       <div className="grid gap_50">
         <h2 className="font-bold title_40 text-center">What do we offer?</h2>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           {offers?.map((item) => (
-            <div className="flex items-start gap-[24px] max-w-[392px] mx-auto">
-              <div className="bg-[#3D544D] flex items-center justify-center rounded-[24px] w-[64px] h-[64px]">
+            <div className="flex items-start gap-[24px] md:max-w-[320px] lg:max-w-[392px] mx-auto">
+              <div className="bg-[#3D544D] flex items-center justify-center rounded-[12px] lg:rounded-[24px] w-full h-full max-w-[48px] max-h-[48px]  lg:max-w-[64px] lg:max-h-[64px]">
                 {item?.icon}
               </div>
               <div className="grid gap-2">
