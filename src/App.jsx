@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { lazy, useContext, useEffect } from "react";
 const Hero = lazy(() => import("./app/sections/Hero.jsx"));
-import Navbar from "./app/root/Navbar.jsx";
-import Values from "./app/sections/Values.jsx";
-import Partners from "./app/sections/Partners.jsx";
-import Services from "./app/sections/Services.jsx";
-import Offers_One from "./app/sections/Offers_one.jsx";
-import Offers_Two from "./app/sections/Offers_Two.jsx";
+const Navbar = lazy(() => import("./app/root/Navbar.jsx"));
+const Values = lazy(() => import("./app/sections/Values.jsx"));
+const Partners = lazy(() => import("./app/sections/Partners.jsx"));
+const Services = lazy(() => import("./app/sections/Services.jsx"));
+const Offers_One = lazy(() => import("./app/sections/Offers_One.jsx"));
+const Offers_Two = lazy(() => import("./app/sections/Offers_Two.jsx"));
 function App() {
     return (
         <BrowserRouter>
