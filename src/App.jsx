@@ -14,6 +14,8 @@ import Main_Header from "./app/root/Main_Header.jsx";
 import Values from "./app/sections/Values.jsx";
 import Partners from "./app/sections/Partners.jsx";
 import Services from "./app/sections/Services.jsx";
+import Offers_One from "./app/sections/Offers_One.jsx";
+import Offers_Two from "./app/sections/Offers_Two.jsx";
 
 function App() {
     return (
@@ -24,6 +26,8 @@ function App() {
                 <Values />
                 <Partners />
                 <Services/>
+                <Offers_One/>
+                <Offers_Two/>
                 <Values />
             </div>
         </BrowserRouter>
