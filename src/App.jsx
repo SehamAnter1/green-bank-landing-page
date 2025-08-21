@@ -13,18 +13,18 @@ import { bg_icon } from "./assets/Icons.jsx";
 import Main_Header from "./app/root/Main_Header.jsx";
 import Values from "./app/sections/Values.jsx";
 import Partners from "./app/sections/Partners.jsx";
+import Services from "./app/sections/Services.jsx";
 
 function App() {
     return (
         <BrowserRouter>
-        <div className="layout grid gap-[40px] sm:gap-[60px] lg:gap-[80px]">
-
-            <Main_Header />
-            <Hero />
-            <Values/>
-            <Partners/>
-        </div>
-
+            <div className="layout grid gap-[40px] sm:gap-[60px] lg:gap-[80px]">
+                <Main_Header />
+                <Hero />
+                <Values />
+                <Partners />
+                <Services/>
+            </div>
         </BrowserRouter>
     );
 }
