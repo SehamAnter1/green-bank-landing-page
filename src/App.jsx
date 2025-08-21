@@ -7,6 +7,7 @@ const Partners = lazy(() => import("./app/sections/Partners.jsx"));
 const Services = lazy(() => import("./app/sections/Services.jsx"));
 const Offers_One = lazy(() => import("./app/sections/Offers_One.jsx"));
 const Offers_Two = lazy(() => import("./app/sections/Offers_Two.jsx"));
+const FAQs = lazy(() => import("./app/sections/FAQs.jsx"));
 function App() {
     return (
         <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
                 <Services/>
                 <Offers_One/>
                 <Offers_Two/>
+                <FAQs/>
                 <Values />
             </div>
         </BrowserRouter>
