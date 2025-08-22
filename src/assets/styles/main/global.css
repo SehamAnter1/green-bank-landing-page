@@ -10,15 +10,19 @@ body {
   -moz-transition: 0.6s all;
   -ms-transition: 0.6s all;
   -o-transition: 0.6s all;
-  min-height: 100vh;
-  background-image: url("./../../images/base/bg.svg");
-  background-repeat: no-repeat;
 }
 
 body,
 *,
 .p-component {
   font-family: "Montserrat", serif;
+}
+
+.layout {
+  min-height: 100vh;
+  background-image: url("./../../images/base/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button,

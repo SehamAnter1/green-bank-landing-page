@@ -110,7 +110,7 @@ export const bg_icon = (
 
 );
 export const Menu_icon = (color) => (
-    <svg className="w-full " width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="max-w-[30px]" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.00848 5.29546C8.72528 2.57866 12.2857 1.22086 15.8461 1.22086C19.4065 1.22086 22.9669 2.57926 25.6837 5.29546C28.3999 8.01166 29.7577 11.5709 29.7583 15.1307C29.7589 18.6923 28.4005 22.2539 25.6837 24.9707C20.2507 30.4037 11.4415 30.4037 6.00848 24.9707C0.575475 19.5377 0.575475 10.7285 6.00848 5.29546Z" stroke="white" stroke-width="2.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M20.6461 15.1331H11.0461" stroke="white" stroke-width="2.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M20.6461 10.3331H11.0461" stroke="white" stroke-width="2.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
