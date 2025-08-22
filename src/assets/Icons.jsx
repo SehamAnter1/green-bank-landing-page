@@ -149,11 +149,11 @@ export const method_icon = (color) => (<svg width="32" height="32" viewBox="0 0 
 <path d="M28 28H25.3333M4 28H6.66667M19.3333 28H12.6667M19.3333 28V11.4667M19.3333 28H25.3333M12.6667 28H6.66667M12.6667 28V18.2476M6.66667 28V23.6476C6.66667 21.3978 6.66667 20.2729 7.23962 19.4843C7.42465 19.2296 7.64863 19.0056 7.90331 18.8206C8.69191 18.2476 9.81683 18.2476 12.0667 18.2476H12.6667M12.6667 18.2476V18.1333C12.6667 15.641 12.6667 14.3949 13.2026 13.4667C13.5536 12.8586 14.0586 12.3536 14.6667 12.0026C15.5949 11.4667 16.841 11.4667 19.3333 11.4667V11.4667M19.3333 11.4667V7C19.3333 5.34315 20.6765 4 22.3333 4V4C23.9902 4 25.3333 5.34315 25.3333 7V28" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
 </svg>
 );
-export const plus_icon = (<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+export const plus_icon =()=> (<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16 9.47451H9.31765V16.251H6.65098V9.47451H0V7.05882H6.65098V0.250977H9.31765V7.05882H16V9.47451Z" fill="white"/>
 </svg>
 );
-export const minus_icon = (<svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+export const minus_icon = ()=>(<svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16 0.707031V3.79475H0V0.707031H16Z" fill="white"/>
 </svg>
 );
