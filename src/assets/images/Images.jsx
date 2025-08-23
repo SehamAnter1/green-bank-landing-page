@@ -18,3 +18,4 @@ export {default as logo_4} from "./components/partners/Vector-4.svg";
 export {default as logo_5} from "./components/partners/Vector-5.svg";
 export {default as offer_1_img} from "./components/offer_1_img.png";
 export {default as offer_2_img} from "./components/offer_2_img.png";
+export {default as store_img} from "./components/store_img.png";
