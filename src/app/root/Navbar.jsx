@@ -21,7 +21,7 @@ export default function Navbar() {
             <div className="navbar h-[48px] mx-auto w-full flex items-center justify-between">
                 <img src={full_logo} alt="logo" className="w-[140px]" />
 
-                <ul className={`${collapse ? "max-md:grid max-md:px-6 max-md:absolute max-md:bg-foreground max-md:h-[100vh] max-md:top-0 content-start max-md:gap-14 max-md:z-[9999] max-md:pt-[100px] !w-[280px] end-0" : "max-md:hidden"} flex w-fit flex mx-auto items-center gap-[16px] xl:gap-[32px]`}>
+                <ul className={`${collapse ? "max-md:grid max-md:px-6 max-md:absolute max-md:bg-foreground max-md:h-[100vh] max-md:top-0 content-start max-md:gap-14 max-md:z-[9999] max-md:pt-[100px] !w-[280px] end-0" : "max-md:hidden"} w-fit flex mx-auto items-center gap-[16px] xl:gap-[32px]`}>
                     {navItems.map((item) => (
                         <NavLink to={item.path} key={item.path} className={"group"}>
                             {({ isActive }) => (
