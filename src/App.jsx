@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { lazy } from "react";
-import Download_App from "./app/sections/Download_App.jsx";
+import Footer from "./app/root/Footer.jsx";
 const Hero = lazy(() => import("./app/sections/Hero.jsx"));
 const Navbar = lazy(() => import("./app/root/Navbar.jsx"));
 const Values = lazy(() => import("./app/sections/Values.jsx"));
@@ -16,13 +16,13 @@ function App() {
                 <Navbar />
                 <Hero />
                 <Values />
+                <Values />
                 <Partners />
                 <Services/>
                 <Offers_One/>
                 <Offers_Two/>
                 <FAQs/>
-                <Download_App/>
-                <Values />
+                <Footer />
             </div>
         </BrowserRouter>
     );

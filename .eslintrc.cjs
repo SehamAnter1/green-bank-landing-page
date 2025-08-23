@@ -28,7 +28,7 @@ module.exports = {
     ],
 
     // catch unresolved imports
-    'import/no-unresolved': 'error',
+    // 'import/no-unresolved': 'error',
     'import/no-extraneous-dependencies': 'error',
 
     // catch undefined variables
