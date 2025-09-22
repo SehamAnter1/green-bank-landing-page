@@ -10,6 +10,7 @@ export default function FAQ_Item({ question, answer, isOpen, toggleIndex, index 
             </div>
             <span className=" cursor-pointer"
                 role='button'
+                aria-label={isOpen ? "Collapse item" : "Expand item"}
                 onClick={() => toggleIndex(index)}
             >
                 {isOpen ?

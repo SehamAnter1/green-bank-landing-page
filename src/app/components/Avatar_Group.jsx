@@ -6,7 +6,7 @@ export default function Avatar_Group() {
   return (
     <div className='flex'>
         {images?.map((img,i)=>(
-            <img src={img} className={`w-[48px] h-[48px] ${i&&'ms-[-10px]'} object-cover rounded-full`} alt="person avatar" />
+            <img key={i} src={img} className={`w-[48px] h-[48px] ${i&&'ms-[-10px]'} object-cover rounded-full`} alt="person avatar" />
         ))}
       
     </div>

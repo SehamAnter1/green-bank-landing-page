@@ -18,30 +18,36 @@ export default function Navbar() {
 
     return (
         <div className="container  mt-[32px]">
+           {collapse&&
+            <div 
+            className={collapse ? "fixed inset-0 bg-black/20 z-[9998]" : ""} onClick={() => setCollapse(false)} aria-hidden={collapse ? "true" : "false"}
+            ></div>
+        }
             <div className="navbar h-[48px] mx-auto w-full flex items-center justify-between">
                 <img src={full_logo} alt="logo" className="w-[140px]" />
 
-                <ul className={`${collapse ? "max-md:grid max-md:px-6 max-md:absolute max-md:bg-foreground max-md:h-[100vh] max-md:top-0 content-start max-md:gap-14 max-md:z-[9999] max-md:pt-[100px] !w-[280px] end-0" : "max-md:hidden"} w-fit flex mx-auto items-center gap-[16px] xl:gap-[32px]`}>
+                <ul className={`${collapse ? "max-md:grid max-md:px-6 max-md:fixed max-md:shadow-2xl max-md:bg-gray-200  max-md:rounded-es-4xl  max-md:rounded-ss-4xl max-md:!text-black max-md:h-[100vh] max-md:top-0 content-start max-md:gap-14 max-md:z-[9999] max-md:pt-[100px] !w-[280px] end-0" : "max-md:hidden"} w-fit flex mx-auto items-center gap-[16px] xl:gap-[32px]`}>
                     {navItems.map((item) => (
+                            <li
+                                className={` transition-all font-medium max-md:text-foreground duration-300 group-hover:opacity-100 `}
+                            >
                         <NavLink to={item.path} key={item.path} className={"group"}>
                             {({ isActive }) => (
-                                <li
-                                    className={` transition-all font-medium text-background duration-300 group-hover:opacity-100 `}
-                                >
-                                    {t(item.label)}
-                                </li>
-                            )}
+                                    t(item.label)
+                                )}
                         </NavLink>
+                                </li>
                     ))}
-                    <Button variant="secondary" className={"md:hidden"} text={"Contact us"} />
+                    <Button variant="primary" className={"md:hidden "} text={"Contact us"} />
                 </ul>
-                <span className="md:hidden w-4 ms-0 relative z-[99999]"
+                <span className="md:hidden w-4 cursor-pointer ms-0 relative z-[99999]"
                     onClick={() => setCollapse(!collapse)}
-                    role="button">
+                        aria-label={'Toggle menu'}role="button">
                     {!collapse ?
                         <Menu_icon />
                         :
-                        <Close_menu_icon />
+                        <></>
+                        // <Close_menu_icon />
                     }
                 </span>
                 <Button variant="outline" className={"max-md:hidden"} text={"Contact us"} />

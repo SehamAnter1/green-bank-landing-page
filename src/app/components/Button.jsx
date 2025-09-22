@@ -46,8 +46,8 @@ target, loading, onClick, disabled, type, className, text,
 
     if (to) {
         return (
-            <Link to={to} target={target} className={`rounded-[49px]  ${className}`}>
-                <button loading={loading} onClick={onClick} disabled={isDisabled} type={type} className={buttonClasses}>
+            <Link rel="preload" to={to} target={target} className={`rounded-[49px]  ${className}`}>
+                <button name={"button"} loading={loading} onClick={onClick} disabled={isDisabled} type={type} className={buttonClasses}>
                     {buttonContent}
                 </button>
             </Link>
@@ -55,7 +55,7 @@ target, loading, onClick, disabled, type, className, text,
     }
 
     return (
-        <button loading={loading} onClick={onClick} disabled={isDisabled} type={type} className={buttonClasses}>
+        <button  name={"button"}  loading={loading} onClick={onClick} disabled={isDisabled} type={type} className={buttonClasses}>
             {buttonContent}
         </button>
     );
